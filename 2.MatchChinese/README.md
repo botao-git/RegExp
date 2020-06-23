@@ -32,7 +32,7 @@ WHEN code LIKE '%UCtotalD'     THEN '总单耗(kgce/t)'
 正则表达式：`[\u4e00-\u9fa5]+`
 
 匹配结果：
-[匹配中文](./image/img1.png)
+![匹配中文](./image/img1.png)
 
 
 ## 2.匹配引号内存在中文的情况
@@ -40,4 +40,4 @@ WHEN code LIKE '%UCtotalD'     THEN '总单耗(kgce/t)'
 正则表达式：`'\S*?[\u4e00-\u9fa5]+\S*?'`
 
 匹配结果：
-[匹配中文](./image/img2.png)
+![匹配中文](./image/img2.png)
